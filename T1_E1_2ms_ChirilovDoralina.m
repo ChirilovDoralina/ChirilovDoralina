@@ -1,4 +1,4 @@
-t=0:.002:8;
+t=0:0.002:8;
 %4 perioade/2ms
 x=0.75*square(pi*t,25)-0.25;
 %->Atribuim variabilei x functia unui semnal dreptunghiular
