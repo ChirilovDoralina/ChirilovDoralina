@@ -40,4 +40,4 @@ plot(1.5+t6,x6);
 xlabel('Timp(secunde)')
 %Am denumit axa Oy
 ylabel('Amplitudine')
-title('Semnal dreptunghular multinivel aleator')
+title('Semnal dreptunghiular multinivel aleator')
