@@ -13,4 +13,4 @@ axis([0 12 -1 1])
 xlabel('Timp(secunde)')
 %Am denumit axa Oy
 ylabel('Amplitudine')
-title('Semnal sinusoidal monoalternata')
+title('Semnal sinusoidal monoalternat')
