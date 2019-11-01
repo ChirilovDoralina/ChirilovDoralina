@@ -22,6 +22,7 @@ plot(t3,x3);
 plot(t4,x4);
 %->Folosim functia axis pentru a delimita spectrele de valori ale graficului generat de plot pentru a se incadra corespunzator in parametri
 axis([0 2 -3 3]);
+%->Acum graficul se va intinde de la 0 la 2 pe Ox si de a -3 la 3 pe Oy
 t5=1:0.02:1.25;
 t6=1.25:0.02:1.5;
 t7=1.5:0.02:1.75;
