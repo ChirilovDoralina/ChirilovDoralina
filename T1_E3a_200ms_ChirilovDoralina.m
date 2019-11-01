@@ -11,6 +11,7 @@ x1=r1*square(8*pi*t1,100);
 x2=-r2*square(8*pi*t2,100);
 %->Folosim functia axis pentru a delimita spectrele de valori ale graficului generat de plot pentru a se incadra corespunzator in parametri
 axis([0 1 -1 1]);
+%->Acum graficul se va intinde de la 0 la 1 pe Ox si de a -1 la 1 pe Oy
 %->Vom folosi functia plot pentru a genera un grafic cu parametrii t1 si x1 si un grafic cu t2 si x2
 plot(t1,x1);
 plot(t2,x2);
