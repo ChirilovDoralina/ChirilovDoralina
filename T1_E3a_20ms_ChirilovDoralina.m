@@ -1,8 +1,8 @@
 hold on;
 %utilizam hold on pentru a afisa simultan mai multe semnale pe acelasi grafic
 %20ms
-r1=rand(1);
 %folosim rand pentru a genera un numar aleator
+r1=rand(1);
 r2=rand(1);
 t1=0:0.02:0.25;
 t2=0.25:0.02:0.5;
