@@ -39,6 +39,7 @@ plot(t7,x7);
 plot(t8,x8);
 %->Folosim functia axis pentru a delimita spectrele de valori ale graficului generat de plot pentru a se incadra corespunzator in parametri
 axis([0 4 -7 7]);
+%->Acum graficul se va intinde de la 0 la 4 pe Ox si de a -7 la 7 pe Oy
 plot(2+t1,x1);
 plot(2+t2,x2);
 plot(2+t3,x3);
@@ -46,7 +47,8 @@ plot(2+t4,x4);
 plot(2+t5,x5);
 plot(2+t6,x6);
 plot(2+t7,x7);
-plot(2+t8,x8);%Am denumit axa Ox
+plot(2+t8,x8);
+%Am denumit axa Ox
 xlabel('Timp(secunde)')
 %Am denumit axa Oy
 ylabel('Amplitudine')
