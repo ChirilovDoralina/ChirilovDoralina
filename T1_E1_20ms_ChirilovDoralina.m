@@ -1,4 +1,4 @@
-t=0:.02:8;
+t=0:0.02:8;
 %4 perioade/20ms
 x=0.75*square(pi*t,25)-0.25;
 %->Am definit variabila x ca fiind o functie ce defineste un semnal dreptunghiular
