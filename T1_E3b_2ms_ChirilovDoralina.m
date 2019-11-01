@@ -6,7 +6,7 @@ r1=rand(1);
 r2=rand(1);
 r3=rand(1);
 r4=rand(1);
-t1=0:0.2:0.25;
+t1=0:0.002:0.25;
 t2=0.25:0.002:0.5;
 t3=0.5:0.002:0.75;
 t4=0.75:0.002:1;
@@ -22,7 +22,8 @@ plot(t3,x3);
 plot(t4,x4);
 %->Folosim functia axis pentru a delimita spectrele de valori ale graficului generat de plot pentru a se incadra corespunzator in parametri
 axis([0 2 -3 3]);
-t5=1:0.2:1.25;
+%->Acum graficul se va intinde de la 0 la 2 pe Ox si de a -3 la 3 pe Oy
+t5=1:0.002:1.25;
 t6=1.25:0.002:1.5;
 t7=1.5:0.002:1.75;
 t8=1.75:0.002:2;
